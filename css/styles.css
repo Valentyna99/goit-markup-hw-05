@@ -534,12 +534,12 @@ align-items: baseline;
 }
 
 .subscrite-title{
+    margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: #FFF;
-        margin-bottom: 16px;
+        color: #ffffff;
 }
 
 .subscribe-wrap{
