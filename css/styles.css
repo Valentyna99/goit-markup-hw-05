@@ -796,22 +796,21 @@ color: #4d5ae5;
 }
 
 .modal-submit{
-    background: #4d5ae5;
-    border-radius: 4px;
+    border: 1px solid #000;
+        border-radius: 4px;
         padding: 16px 32px;
-        min-width: 169px;
-        height: 56px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 150%;
-            letter-spacing: 0.04em;
-            text-align: center;
-            color: #FFF;
-         cursor: pointer;
-         border: none;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #4D5AE5;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
 }
