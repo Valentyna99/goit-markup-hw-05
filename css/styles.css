@@ -390,10 +390,15 @@ margin-bottom: 72px;
       box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+      
 }
 
 .portfolio-container:hover{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover .portfolio-text-cover {
+    transform: translateY(0%);
 }
 
 .portfolio-img {
@@ -594,6 +599,8 @@ align-items: baseline;
 
 .subscribe-icon{
     margin-left: 16px;
+    fill: #fff;
+ 
 }
 
 /* Modal */
